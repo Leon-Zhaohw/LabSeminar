@@ -1,1 +1,1 @@
-# LabSemina
+# LabSeminar

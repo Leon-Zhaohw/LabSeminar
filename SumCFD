@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T13:11:09.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ENuT7mBsVn8dvoJu0NGz" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T13:25:25.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zshaeysi97e6cblwXY5h" version="20.2.8" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
-    <mxGraphModel dx="4191" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
+    <mxGraphModel dx="6709" dy="3367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -889,6 +889,15 @@
         <mxCell id="TnaiW79I0I9KsTLGmLk0-304" value="Initial Condition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2950" y="1610" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-346" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-305" target="TnaiW79I0I9KsTLGmLk0-345">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-305" target="TnaiW79I0I9KsTLGmLk0-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-305" target="TnaiW79I0I9KsTLGmLk0-348">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TnaiW79I0I9KsTLGmLk0-305" value="Boundary Condition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2950" y="1710" width="230" height="60" as="geometry" />
         </mxCell>
@@ -1034,6 +1043,63 @@
         </mxCell>
         <mxCell id="TnaiW79I0I9KsTLGmLk0-342" value="Geometric multigrid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2380" y="1930" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-354" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-345" target="TnaiW79I0I9KsTLGmLk0-353">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-345" value="Neumann boundary condition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-352" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-347" target="TnaiW79I0I9KsTLGmLk0-351">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-347" value="Dirichlet boundary condition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-356" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-348" target="TnaiW79I0I9KsTLGmLk0-355">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-348" value="Robin boundary condition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="1785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-351" value="$$\phi = c$$" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3515" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-353" value="$$\frac{\partial \phi}{\partial x} = c$$" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3515" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-355" value="$$\phi + \frac{\partial \phi}{\partial x} = c$$" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3515" y="1785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-359" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-357" target="TnaiW79I0I9KsTLGmLk0-358">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-361" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-357" target="TnaiW79I0I9KsTLGmLk0-360">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-357" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1990" width="20" height="343.75" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-358" value="Serial Calculate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="2200.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-360" value="Parallel Calculate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="2200.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-364" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-362" target="TnaiW79I0I9KsTLGmLk0-363">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-366" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-362" target="TnaiW79I0I9KsTLGmLk0-365">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-362" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="2100" width="20" height="343.75" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-363" value="Base on CPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2205" y="2310.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-365" value="Base on GPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="2310.005" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

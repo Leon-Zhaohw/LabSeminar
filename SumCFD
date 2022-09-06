@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T10:47:30.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6MGZZYapsL_zetl0CzR_" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T11:54:55.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YfyQLoTXXz8lvzxgs3Jy" version="20.2.8" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
-    <mxGraphModel dx="1908" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
+    <mxGraphModel dx="3726" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -761,6 +761,9 @@
         <mxCell id="TnaiW79I0I9KsTLGmLk0-260" value="TVD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2830" y="655" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-261" target="TnaiW79I0I9KsTLGmLk0-271">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TnaiW79I0I9KsTLGmLk0-261" value="NVD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2830" y="690" width="50" height="30" as="geometry" />
         </mxCell>
@@ -782,8 +785,26 @@
         <mxCell id="TnaiW79I0I9KsTLGmLk0-268" value="$$r = \frac{\phi_C - \phi_U}{\phi_D - \phi_C}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3070" y="655" width="270" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnaiW79I0I9KsTLGmLk0-269" target="TnaiW79I0I9KsTLGmLk0-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TnaiW79I0I9KsTLGmLk0-269" value="$$\phi_d = \phi_C + \frac{1}{2} [ (3+ r) \frac{1}{4}] (\phi_D - \phi_C)&lt;br&gt;$$" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3270" y="587.5" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-271" value="$$\widetilde{\phi}_d = \frac{\phi_f - \phi_U}{\phi_D - \phi_U}&amp;nbsp;&lt;br&gt;$$" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="705" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-273" value="$$\widetilde{\phi}_d = \frac{3}{8} + \frac{3}{4}\widetilde{\phi}_C&lt;br&gt;$$" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="705" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-275" value="$$ \nabla \cdot (\Gamma \nabla \phi_c ) = \sum (\Gamma \nabla \phi)_f \cdot S_f $$" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="10" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-276" value="$$ \nabla \cdot (\Gamma \nabla \phi_c ) = \sum (\Gamma \nabla \phi)_f \cdot S_f $$" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="90" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnaiW79I0I9KsTLGmLk0-277" value="$$ \nabla \cdot (\Gamma \nabla \phi_c ) = \sum (\Gamma \nabla \phi)_f \cdot S_f $$" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="160" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
